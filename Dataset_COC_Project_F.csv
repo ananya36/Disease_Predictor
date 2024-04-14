@@ -1,0 +1,98 @@
+Symptom_1,Symptom_2,Symptom_3,Smoke/Alcohol_Consumption,Duration_of_Symptom,Age,Gender,Past_History,Severity,Disease
+Fever,Cough,Runny Nose,Non-smoker/Non-drinker,5,35,Female,None,Mild,Common Cold
+Fever,Chills,Muscle Pain,Non-smoker/Non-drinker,7,45,Male,None,Moderate,Influenza
+Shortness of Breath,Chest Pain,Fatigue,Smoker/Non-drinker,10,60,Male,"Hypertension, Diabetes",Severe,Pneumonia
+Nausea,Vomiting,Diarrhea,Non-smoker/Non-drinker,3,28,Female,None,Mild,Gastroenteritis
+Joint Pain,Swelling,Stiffness,Non-smoker/Non-drinker,10,50,Male,None,Moderate,Rheumatoid Arthritis
+Headache,Nausea,Sensitivity to Light,Non-smoker/Non-drinker,1,40,Female,None,Mild,Migraine
+Fever,Chills,Muscle Pain,Non-smoker/Non-drinker,7,45,Male,None,Moderate,Influenza
+Joint Pain,Swelling,Stiffness,Non-smoker/Non-drinker,10,50,Male,None,Moderate,Rheumatoid Arthritis
+Fever,Cough,Runny Nose,Non-smoker/Non-drinker,5,35,Female,None,Mild,Common Cold
+Shortness of Breath,Chest Pain,Fatigue,Smoker/Non-drinker,10,60,Male,"Hypertension, Diabetes",Severe,Pneumonia
+Joint Pain,Swelling,Stiffness,Non-smoker/Non-drinker,10,42,Male,None,Mild,Osteoarthritis
+Chest Pain,Irregular Heartbeat,Shortness of Breath,Non-smoker/Occasional Drinker,10,48,Female,Heart Disease ,Severe,Coronary Artery Disease
+Abdominal Pain,Bloating,Constipation,Non-smoker/Non-drinker,7,52,Male,None,Moderate,Irritable Bowel Syndrome
+Nausea,Vomiting,Diarrhea,Non-smoker/Non-drinker,3,28,Female,None,Mild,Gastroenteritis
+Joint Pain,Swelling,Stiffness,Non-smoker/Non-drinker,10,42,Male,None,Mild,Osteoarthritis
+Chest Pain,Irregular Heartbeat,Shortness of Breath,Non-smoker/Occasional Drinker,10,48,Female,Heart Disease,Severe,Coronary Artery Disease
+Fever,Chills,Muscle Pain,Non-smoker/Non-drinker,7,45,Male,None,Moderate,Influenza
+Abdominal Pain,Bloating,Constipation,Non-smoker/Non-drinker,7,52,Male,None,Moderate,Irritable Bowel Syndrome
+Fever,Cough,Runny Nose,Non-smoker/Non-drinker,5,35,Female,None,Mild,Common Cold
+Fever,Chills,Muscle Pain,Non-smoker/Non-drinker,7,45,Male,None,Moderate,Influenza
+Shortness of Breath,Chest Pain,Fatigue,Smoker/Non-drinker,10,60,Male,"Hypertension, Diabetes",Severe,Pneumonia
+Abdominal Pain,Nausea,Vomiting,Non-smoker/Non-drinker,3,28,Female,None,Mild,Gastroenteritis
+Joint Pain,Swelling,Stiffness,Non-smoker/Non-drinker,50,50,Male,None,Moderate,Rheumatoid Arthritis
+Headache,Nausea,Sensitivity to Light,Non-smoker/Non-drinker,40,40,Female,None,Mild,Migraine
+Fever,Chills,Muscle Pain,Non-smoker/Non-drinker,7,45,Male,None,Moderate,Influenza
+Joint Pain,Swelling,Stiffness,Non-smoker/Non-drinker,50,50,Male,None,Moderate,Rheumatoid Arthritis
+Fever,Cough,Runny Nose,Non-smoker/Non-drinker,5,35,Female,None,Mild,Common Cold
+Shortness of Breath,Chest Pain,Fatigue,Smoker/Non-drinker,10,60,Male,"Hypertension, Diabetes",Severe,Pneumonia
+Chest Pain,Shortness of Breath,Fatigue,Non-smoker/Non-drinker,8,58,Male,Hypertension,Severe,Coronary Artery Disease
+Joint Pain,Stiffness,Swelling,Non-smoker/Non-drinker,30,65,Female,None,Moderate,Osteoarthritis
+Abdominal Pain,Bloating,Diarrhea,Non-smoker/Non-drinker,5,42,Female,None,Mild,Irritable Bowel Syndrome
+Chest Pain,Shortness of Breath,Fatigue,Non-smoker/Non-drinker,8,58,Male,Hypertension,Severe,Coronary Artery Disease
+Joint Pain,Stiffness,Swelling,Non-smoker/Non-drinker,30,65,Female,None,Moderate,Osteoarthritis
+Abdominal Pain,Bloating,Diarrhea,Non-smoker/Non-drinker,5,42,Female,None,Mild,Irritable Bowel Syndrome
+Fever,Cough,Runny Nose,Non-smoker/Non-drinker,4,25,Female,None,Mild,Common Cold
+Fever,Chills,Fatigue,Smoker/Non-drinker,6,55,Male,Hypertension,Moderate,Influenza
+Shortness of Breath,Chest Pain,Fatigue,Non-smoker/Non-drinker,8,60,Female,None,Severe,Pneumonia
+Abdominal Pain,Nausea,Vomiting,Non-smoker/Non-drinker,3,30,Male,None,Mild,Gastroenteritis
+Joint Pain,Swelling,Stiffness,Non-smoker/Non-drinker,40,70,Female,None,Moderate,Rheumatoid Arthritis
+Headache,Nausea,Sensitivity to Light,Non-smoker/Non-drinker,1,35,Male,None,Mild,Migraine
+Chest Pain,Palpitations,Shortness of Breath,Non-smoker/Non-drinker,7,45,Female,None,Moderate,Coronary Artery Disease
+Joint Pain,Swelling,Stiffness,Non-smoker/Non-drinker,30,65,Male,None,Moderate,Osteoarthritis
+Abdominal Pain,Bloating,Diarrhea,Non-smoker/Non-drinker,5,42,Female,None,Mild,Irritable Bowel Syndrome
+Cough,Sore Throat,Fever,Non-smoker/Non-drinker,5,30,Male,None,Moderate,Common Cold
+Fever,Cough,Runny Nose,Non-smoker/Non-drinker,4,25,Female,None,Mild,Common Cold
+Fever,Chills,Fatigue,Smoker/Non-drinker,6,55,Male,Hypertension,Moderate,Influenza
+Shortness of Breath,Chest Pain,Fatigue,Non-smoker/Non-drinker,8,60,Female,None,Severe,Pneumonia
+Abdominal Pain,Nausea,Vomiting,Non-smoker/Non-drinker,3,30,Male,None,Mild,Gastroenteritis
+Joint Pain,Swelling,Stiffness,Non-smoker/Non-drinker,40,70,Female,None,Moderate,Rheumatoid Arthritis
+Fatigue,Headache,Dizziness,Non-smoker/Non-drinker,4,32,Male,None,Mild,Fatigue
+Cough,Sore Throat,Fever,Non-smoker/Non-drinker,6,25,Female,None,Moderate,Common Cold
+Shortness of Breath,Chest Pain,Wheezing,Smoker/Non-drinker,8,55,Male,Asthma,Severe,Asthma exacerbation
+Abdominal Pain,Nausea,Vomiting,Non-smoker/Non-drinker,2,30,Female,None,Mild,Gastritis
+Joint Pain,Swelling,Redness,Non-smoker/Non-drinker,12,68,Female,Osteoarthritis,Moderate,Osteoarthritis
+Fever,Chills,Fatigue,Smoker/Non-drinker,5,40,Male,None,Moderate,Influenza
+Headache,Dizziness,Blurred Vision,Non-smoker/Non-drinker,3,45,Male,Hypertension,Mild,Migraine
+Nausea,Diarrhea,Abdominal Pain,Non-smoker/Non-drinker,1,22,Female,None,Mild,Gastroenteritis
+Back Pain,Muscle Pain,Numbness,Non-smoker/Non-drinker,9,55,Male,Sciatica,Moderate,Sciatica
+Shortness of Breath,Wheezing,Cough,Non-smoker/Non-drinker,7,35,Female,Asthma,Moderate,Asthma exacerbation
+Fever,Body Aches,Fatigue,Smoker/Non-drinker,6,28,Female,None,Moderate,Influenza
+Sore Throat,Runny Nose,Sneezing,Non-smoker/Non-drinker,4,30,Male,None,Mild,Common Cold
+Joint Pain,Stiffness,Swelling,Non-smoker/Non-drinker,10,60,Female,Rheumatoid Arthritis,Moderate,Rheumatoid Arthritis
+Fever,Chills,Muscle Pain,Non-smoker/Non-drinker,7,45,Male,None,Moderate,Influenza
+Fatigue,Weakness,Loss of Appetite,Non-smoker/Non-drinker,5,42,Female,Anemia,Mild,Anemia
+Headache,Nausea,Dizziness,Non-smoker/Non-drinker,2,35,Male,None,Mild,Migraine
+Shortness of Breath,Chest Pain,Fatigue,Smoker/Non-drinker,8,50,Male,"Hypertension, Diabetes",Severe,Pneumonia
+Nausea,Vomiting,Abdominal Pain,Non-smoker/Non-drinker,3,28,Female,None,Mild,Gastroenteritis
+Joint Pain,Swelling,Stiffness,Non-smoker/Non-drinker,10,50,Male,None,Moderate,Rheumatoid Arthritis
+Fever,Chills,Muscle Pain,Non-smoker/Non-drinker,7,45,Male,None,Moderate,Influenza
+Fatigue,Joint Pain,Muscle Weakness,Non-smoker/Non-drinker,6,55,Female,Hypothyroidism,Mild,Hypothyroidism
+Cough,Fever,Sore Throat,Non-smoker/Non-drinker,5,30,Male,None,Moderate,Common Cold
+Shortness of Breath,Chest Pain,Wheezing,Smoker/Non-drinker,8,45,Female,Asthma,Severe,Asthma exacerbation
+Nausea,Diarrhea,Abdominal Pain,Non-smoker/Non-drinker,2,40,Male,None,Mild,Gastroenteritis
+Joint Pain,Swelling,Stiffness,Non-smoker/Non-drinker,12,70,Female,Osteoarthritis,Moderate,Osteoarthritis
+Fever,Chills,Fatigue,Smoker/Non-drinker,7,38,Male,None,Moderate,Influenza
+Headache,Dizziness,Nausea,Non-smoker/Non-drinker,3,50,Female,Migraine,Mild,Migraine
+Nausea,Vomiting,Diarrhea,Non-smoker/Non-drinker,1,25,Male,None,Mild,Gastroenteritis
+Back Pain,Muscle Pain,Numbness,Non-smoker/Non-drinker,9,60,Male,Sciatica,Moderate,Sciatica
+Shortness of Breath,Wheezing,Cough,Non-smoker/Non-drinker,7,40,Female,Asthma,Moderate,Asthma exacerbation
+Fever,Body Aches,Fatigue,Smoker/Non-drinker,6,32,Female,None,Moderate,Influenza
+Sore Throat,Runny Nose,Sneezing,Non-smoker/Non-drinker,4,28,Male,None,Mild,Common Cold
+Joint Pain,Stiffness,Swelling,Non-smoker/Non-drinker,10,65,Female,Rheumatoid Arthritis,Moderate,Rheumatoid Arthritis
+Fever,Chills,Muscle Pain,Non-smoker/Non-drinker,7,45,Male,None,Moderate,Influenza
+Fatigue,Weakness,Loss of Appetite,Non-smoker/Non-drinker,5,47,Female,Anemia,Mild,Anemia
+Headache,Dizziness,Nausea,Non-smoker/Non-drinker,2,37,Male,None,Mild,Migraine
+Shortness of Breath,Chest Pain,Fatigue,Smoker/Non-drinker,8,52,Male,"Hypertension, Diabetes",Severe,Pneumonia
+Nausea,Vomiting,Abdominal Pain,Non-smoker/Non-drinker,3,30,Female,None,Mild,Gastroenteritis
+Joint Pain,Swelling,Stiffness,Non-smoker/Non-drinker,10,55,Male,None,Moderate,Rheumatoid Arthritis
+Fever,Chills,Muscle Pain,Non-smoker/Non-drinker,7,48,Male,None,Moderate,Influenza
+Fatigue,Joint Pain,Muscle Weakness,Non-smoker/Non-drinker,6,58,Female,Hypothyroidism,Mild,Hypothyroidism
+Cough,Fever,Sore Throat,Non-smoker/Non-drinker,5,32,Male,None,Moderate,Common Cold
+Shortness of Breath,Chest Pain,Wheezing,Smoker/Non-drinker,8,47,Female,Asthma,Severe,Asthma exacerbation
+Nausea,Diarrhea,Abdominal Pain,Non-smoker/Non-drinker,2,35,Male,None,Mild,Gastroenteritis
+Joint Pain,Swelling,Stiffness,Non-smoker/Non-drinker,12,72,Female,Osteoarthritis,Moderate,Osteoarthritis
+Fever,Chills,Fatigue,Smoker/Non-drinker,7,41,Male,None,Moderate,Influenza
+Headache,Dizziness,Nausea,Non-smoker/Non-drinker,3,52,Female,Migraine,Mild,Migraine
+Nausea,Vomiting,Diarrhea,Non-smoker/Non-drinker,1,28,Male,None,Mild,Gastroenteritis
