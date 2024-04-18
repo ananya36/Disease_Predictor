@@ -14,3 +14,6 @@ data.drop(['Smoke/Alcohol_Consumption', 'Past_History'], axis=1, inplace=True)#d
 X_text = data[['Symptom_1', 'Symptom_2', 'Symptom_3']].astype(str).apply(lambda x: ' '.join(x), axis=1)#joining all the three symptoms as strings into one list via the join fuction 
 X_numeric = data[['Duration_of_Symptom', 'Age']]# storing all the numeric features in one list
 y = data['Disease']#output var
+
+le = LabelEncoder()#obj
+X_numeric['Gender'] = le.fit_transform(data['Gender'])#adding a new column to the numeric list as gender by transforming it a numeric value 
