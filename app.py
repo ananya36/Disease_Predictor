@@ -17,3 +17,7 @@ y = data['Disease']#output var
 
 le = LabelEncoder()#obj
 X_numeric['Gender'] = le.fit_transform(data['Gender'])#adding a new column to the numeric list as gender by transforming it a numeric value 
+
+severity_mapping = {'Mild': 1, 'Moderate': 2, 'Severe': 3}#preprocessing "severity" via mapping 
+X_numeric['Severity'] = data['Severity'].map(severity_mapping)#adding severity to the x_numeric list 
+
