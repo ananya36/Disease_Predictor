@@ -21,3 +21,5 @@ X_numeric['Gender'] = le.fit_transform(data['Gender'])#adding a new column to th
 severity_mapping = {'Mild': 1, 'Moderate': 2, 'Severe': 3}#preprocessing "severity" via mapping 
 X_numeric['Severity'] = data['Severity'].map(severity_mapping)#adding severity to the x_numeric list 
 
+scaler = StandardScaler()
+X_numeric_scaled = scaler.fit_transform(X_numeric)#scaling the numeric values to bring them within a range 
