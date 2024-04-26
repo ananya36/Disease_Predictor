@@ -23,3 +23,6 @@ X_numeric['Severity'] = data['Severity'].map(severity_mapping)#adding severity t
 
 scaler = StandardScaler()
 X_numeric_scaled = scaler.fit_transform(X_numeric)#scaling the numeric values to bring them within a range 
+
+tfidf_vectorizer = TfidfVectorizer()
+X_text_tfidf = tfidf_vectorizer.fit_transform(X_text)#applying tf-idf so that imporatnces of all the text input can be identified
