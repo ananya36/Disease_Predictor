@@ -26,3 +26,7 @@ X_numeric_scaled = scaler.fit_transform(X_numeric)#scaling the numeric values to
 
 tfidf_vectorizer = TfidfVectorizer()
 X_text_tfidf = tfidf_vectorizer.fit_transform(X_text)#applying tf-idf so that imporatnces of all the text input can be identified
+
+X = pd.concat([pd.DataFrame(X_text_tfidf.toarray()), pd.DataFrame(X_numeric_scaled)], axis=1)#putting all the indpendent var(which have been preprocessed above) into one list
+
+X.columns = X.columns.astype(str)#settign the column names as string
