@@ -30,3 +30,9 @@ X_text_tfidf = tfidf_vectorizer.fit_transform(X_text)#applying tf-idf so that im
 X = pd.concat([pd.DataFrame(X_text_tfidf.toarray()), pd.DataFrame(X_numeric_scaled)], axis=1)#putting all the indpendent var(which have been preprocessed above) into one list
 
 X.columns = X.columns.astype(str)#settign the column names as string
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Train SVM model
+svm_model = SVC(kernel='linear', C=1.0)  # You may tune kernel and C parameter
+svm_model.fit(X_train, y_train)
