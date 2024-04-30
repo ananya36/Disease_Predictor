@@ -36,3 +36,16 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 # Train SVM model
 svm_model = SVC(kernel='linear', C=1.0)  # You may tune kernel and C parameter
 svm_model.fit(X_train, y_train)
+
+# Streamlit App
+st.title("Disease Prediction System")
+
+# User Input
+st.header("Enter Patient Information")
+symptom_1 = st.text_input("Symptom 1")
+symptom_2 = st.text_input("Symptom 2")
+symptom_3 = st.text_input("Symptom 3")
+duration_of_symptom = st.number_input("Duration of Symptom (in days)", min_value=0)
+age = st.number_input("Age", min_value=0)
+gender = st.selectbox("Gender", ["Male", "Female"])
+severity = st.selectbox("Severity", ["Mild", "Moderate", "Severe"])
