@@ -49,3 +49,14 @@ duration_of_symptom = st.number_input("Duration of Symptom (in days)", min_value
 age = st.number_input("Age", min_value=0)
 gender = st.selectbox("Gender", ["Male", "Female"])
 severity = st.selectbox("Severity", ["Mild", "Moderate", "Severe"])
+
+#User Input
+user_input = {
+    'Symptom_1': symptom_1,
+    'Symptom_2': symptom_2,
+    'Symptom_3': symptom_3,
+    'Duration_of_Symptom': duration_of_symptom,
+    'Age': age,
+    'Gender': gender,
+    'Severity': severity
+}
