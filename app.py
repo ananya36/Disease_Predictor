@@ -60,3 +60,31 @@ user_input = {
     'Gender': gender,
     'Severity': severity
 }
+
+user_input_df = pd.DataFrame(user_input, index=[0])
+
+# Preprocess user input features
+user_input_text = user_input_df[['Symptom_1', 'Symptom_2', 'Symptom_3']].astype(str).apply(lambda x: ' '.join(x), axis=1)
+user_input_numeric = user_input_df[['Duration_of_Symptom', 'Age']]
+
+# One-hot encode Gender and append to user_input_numeric
+user_input_numeric['Gender'] = le.transform(user_input_df['Gender'])
+
+# Convert Severity to numerical values using the same mapping as in training
+user_input_numeric['Severity'] = user_input_df['Severity'].map(severity_mapping)
+
+# Normalize numerical features using the same scaler as in training
+user_input_numeric_scaled = scaler.transform(user_input_numeric)
+
+# TF-IDF transformation for textual features using the same vectorizer as in training
+user_input_text_tfidf = tfidf_vectorizer.transform(user_input_text)
+
+# Concatenate all features
+user_input_features = pd.concat([pd.DataFrame(user_input_text_tfidf.toarray()), pd.DataFrame(user_input_numeric_scaled)], axis=1)
+
+# Predictions for user input
+user_prediction = svm_model.predict(user_input_features)
+
+# Display predicted disease
+st.subheader("Predicted Disease")
+st.write(user_prediction[0])
